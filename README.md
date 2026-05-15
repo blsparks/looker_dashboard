@@ -99,4 +99,4 @@ ecommerce_retention_channel_quality/
 │   ├── 06_category_quality.sql
 │   ├── 07_category_quality.sql
 ├── powerbi/
-│   └── ecommerce_retention_dashboard.pbix
+│   └── looker_dashboard.pbix
