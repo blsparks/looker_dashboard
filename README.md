@@ -23,27 +23,31 @@ How can an ecommerce business improve customer value when repeat purchase retent
 
 ## SQL Views Created
 
-1. `vw_customer_summary`
+1. `vw_completed_order_items`
+
+Clean transaction level base view using completed orders only. This view joins order, order item, product, and user fields into one prepared table used by the downstream analytical views.
+
+2. `vw_customer_summary`
 
 One row per customer with first order date, last order date, total orders, lifetime revenue, AOV, acquisition source, and repeat customer flag.
 
-2. `vw_cohort_retention`
+3. `vw_cohort_retention`
 
 Monthly cohort retention view measuring how many customers return after their first purchase month.
 
-3. `vw_channel_quality`
+4. `vw_channel_quality`
 
 Acquisition source summary with revenue, customers, repeat purchase rate, revenue per customer, and average orders per customer.
 
-4. `vw_rfm_segments`
+5. `vw_rfm_segments`
 
 Customer segmentation view using recency, frequency, and monetary value.
 
-5. `vw_reactivation_targets`
+6. `vw_reactivation_targets`
 
 Classifies customers into winback groups such as high value inactive customers, repeat buyers at risk, and high spend one time buyers.
 
-6. `vw_category_quality`
+7. `vw_category_quality`
 
 Category level view measuring revenue, repeat customer rate, revenue per customer, and average customer AOV.
 
