@@ -1,5 +1,15 @@
 # Ecommerce Customer Retention and Channel Quality Analysis
 
+<!-- Screenshots are displayed inline at half-width so viewers can see them immediately without opening each image. -->
+<p align="center">
+  <img src="executive-summary.png" width="49%" alt="Executive Summary Power BI dashboard" />
+  <img src="cohort-retention.png" width="49%" alt="Cohort Retention Power BI dashboard" />
+</p>
+<p align="center">
+  <img src="customer-segments.png" width="49%" alt="Customer Segments Power BI dashboard" />
+  <img src="category-performance.png" width="49%" alt="Category Performance Power BI dashboard" />
+</p>
+
 ## Project Overview
 
 This project uses TheLook Ecommerce data to analyze customer retention, repeat purchase behavior, customer value segments, acquisition source quality, and product category performance.
